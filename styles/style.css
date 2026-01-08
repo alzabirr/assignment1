@@ -8,6 +8,7 @@
     background-color: #30B868;
 
 }
+
 .primary-color-text{
     color: #30B868;
 }
@@ -27,7 +28,11 @@
     color: rgb(255, 255, 255);
     border: 2px solid white;
 }
-
+.main:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
 /* font style  */
 
 .font-inter{
@@ -40,7 +45,7 @@
     
     width: 1200px;
     margin: auto;
-    border: 2px solid red;
+    
 }
 
 .logo{
@@ -257,7 +262,9 @@ ul{
 
 .section4{
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
+    align-items: center;
+    height: 450px;
 
 }
 .section4 h1{
@@ -312,4 +319,44 @@ ul{
 }
 .cheack-box li img{
     margin-right: 10px;
+}
+
+.footer-section{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #001931;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.last{
+    display: inline-block;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+.last h1{
+    color: white;
+}
+
+
+.fa-twitter{
+    color: white;
+    
+}
+.fa-linkedin{
+    color: white;
+}
+.fa-facebook{
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    
+
 }
