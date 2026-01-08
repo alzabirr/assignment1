@@ -85,7 +85,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url("./assets/hero-bg.png");
+    background: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -122,6 +122,19 @@ ul{
 .pill-btn button{
     background-color: white;
     color: #30B868;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: medium;
+    cursor: pointer;
+    margin-left: 300px;
+    
+
+}
+.pill-btn button:hover{
+    background-color:#30B868;
+    color: white;
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
